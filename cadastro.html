@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Criar conta</title>
+  </head>
+  <body>
+    <header>
+      <h1>Criar Conta</h1>
+      <button>Sou uma ONG</button>
+      <button>Sou um Voluntário</button>
+    </header>
+
+    <main>
+      <section>
+            <h2>Cadastro ONG</h2>
+        <form action="">
+          <label for="">
+            Nome da ONG:</label>
+            <input type="text" />
+          
+
+          <label for="">
+            Email:          </label>
+            <input type="email" />
+
+          <label for="">
+            Telefone:           </label>
+            <input type="tel" />
+
+
+          <label for="">
+            CNPJ:           </label>
+            <input type="text" pattern="\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}" placeholder="00.000.000/0000-00" title="Formato: 00.000.000/0000-00"/>
+
+          <label for="">
+            Senha:          </label>
+            <input type="password" />
+          <button>Criar conta</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Cadastro Voluntário</h2>
+        <form action="">
+          <label for="">
+            Nome completo:           </label>
+            <input type="text" />
+
+          <label for="">
+            Email:           </label>
+            <input type="email" />
+          <label for="">
+            CPF:          </label>
+            <input type="text" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" title="Formato: 000.000.000-00"/>
+
+          <label for="">
+            CEP:           </label>
+            <input type="text" pattern="\d{5}-\d{3}" placeholder="00000-000" title="Formato: 00000-000"/>
+          
+
+          <label for="">
+            Estado:           </label>
+            <input type="text" />
+          
+
+          <label for="">
+            Cidade:           </label>
+            <input type="text" />
+          
+
+          <label for="">
+            Telefone:           </label>
+            <input type="tel" maxlength="15" placeholder="(XX)XXXXX-XXXX" pattern="\(\d{2}\)\d{5}-\d{4}"/>
+        
+
+          <label for="">
+            Senha:           </label>
+            <input type="password" />
+          
+          <button>Criar conta</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+        <p>Já tem uma conta? <a href="#">Faça login</a></p>
+    </footer>
+  </body>
+</html>
